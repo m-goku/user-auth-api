@@ -10,3 +10,8 @@ export type UserLoginTypes = {
   email: string;
   password: string;
 };
+
+export type ChangePasswordTypes = {
+  oldPassword: string;
+  newPassword: string;
+};
